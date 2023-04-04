@@ -12,6 +12,9 @@ const CACHE_NAME = "default-cache";
 const TOPIC_NAME = "test-topic";
 ```
 
+This project also currently assumes you have your `MOMENTO_AUTH_TOKEN` stored in AWS secrets manager with the
+name `/momento/authToken` as a simple string secret.
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
